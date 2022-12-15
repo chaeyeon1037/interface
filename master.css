@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.cont{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/index_01.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.wrap{
+    height: 100vh;
+    position: relative;
+}
+
+.box0{
+     height: 69px; margin-left: 1051px; margin-right: 221px; margin-top: 801px;}
+
+/*--네비게이션 시작--*/
+nav{
+    width: 1218px;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 31px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bt00:hover{filter: invert(1);}
+.bt01:hover{filter: invert(1);}
+.bt02:hover{filter: invert(1);}
+.bt03:hover{filter: invert(1);}
+
+/*--서브01 CSS 시작--*/
+.s1_b00{
+    width: 100%;
+}
+
+.s1_b01{
+    height: 81px;
+    background-image: url('img/b0.jpg');background-size: cover;
+}
+
+.s1_1{
+    height: 888px;
+    background-image: url('img/sub1_01.jpg');
+    background-size: cover;
+}
+
+.s1_2{
+    height: 1379px;
+    background-image: url('img/sub1_02.jpg');
+    background-size: cover;
+}
+
+
+
+/*--서브02 CSS 시작--*/
+.s2_b00{
+    width: 100%;
+}
+
+.s2_b01{
+    height: 81px;
+    background-image: url('img/b0.jpg');background-size: cover;
+}
+
+.s2_1{
+    height: 888px;
+    background-image: url('img/sub2_01.jpg');
+    background-size: cover;
+}
+
+.s2_2{
+    height: 4460px;
+    background-image: url('img/sub2_02.jpg');
+    background-size: cover;
+}
+
+
+
+/*--서브03 CSS 시작--*/
+.s3_b00{
+    width: 100%;
+}
+
+.s3_b01{
+    height: 81px;
+    background-image: url('img/b0.jpg');background-size: cover;
+}
+
+.s3_1{
+    height: 888px;
+    background-image: url('img/sub3_01.jpg');
+    background-size: cover;
+}
+
+.s3_2{
+    height: 4205px;
+    background-image: url('img/sub3_02.jpg');
+    background-size: cover;
+}
+
